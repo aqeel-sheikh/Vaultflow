@@ -1,34 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/static/reset.css">
-    <link rel="stylesheet" href="assets/static/main.css">
-    <link rel="stylesheet" href="assets/static/responsive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/static/reset.css" />
+    <link rel="stylesheet" href="assets/static/main.css" />
+    <link rel="stylesheet" href="assets/static/responsive.css" />
     <title>Vaultflow</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="hero-container">
     <header>
-        <nav class="flex">
-            <div class="nav-left flex">
-                <img src="/assets/images/icons/logo.svg" alt="logo" class="logo">
-                <p>Vaultflow</p>
+      <nav class="flex">
+        <div class="nav-left flex">
+            <div class="logo flex">
+          <img src="/assets/images/icons/logo.svg" alt="logo"  />
+          <p>Vaultflow</p>
+        </div>
+          <div class="hamburger-menu">
+            <div class="hamburger-btn-container">
+            <div id="hamburger-btn">
+              <b></b>
+              <b></b>
+              <b></b>
             </div>
-            <div class="nav-right flex">
-                <ul class="nav-links flex">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">About us</a></li>
+        </div>
+            <div class="hamburger-content">
+              <!-- nav-links will be moved here on mobile devices -->
+            </div>
+          </div>
+        </div>
+        <div class="nav-right flex">
+            <ul class="nav-links flex">
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">About us</a></li>
             </ul>
-                <ul class="nav-btns flex">
-                    <li><button class="btn btn-filled">Download the app</button></li>
-                    <li><button class="btn btn-unfilled">Talk to an expert</button></li>
-                </ul>
-            </div>
-        </nav>
+          <div class="nav-btns btns flex" style="margin-left: auto;">
+            <button class="btn btn-filled">Download the app</button>
+            <button class="btn btn-unfilled">Talk to an expert</button>
+          </div>
+        </div>
+      </nav>
     </header>
-    
+    <section class="hero section flex-column">
+      <div class="hero-top-para flex">
+        <p>We just raised $20M in Series B.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <p class="title">
+        Modern analytics <br />
+        for the modern world
+      </p>
+      <p class="hero-bottom-para">
+        Unlock the power of real-time data insights with cutting-edge analytics
+        tools <br />
+        designed to empower businesses in a fast-paced digital landscape.
+      </p>
+      <div class="btns flex">
+        <button class="btn btn-filled">Download the app</button>
+        <button class="btn btn-unfilled">Talk to an expert</button>
+      </div>
+      <div class="chart">
+        <img src="assets/images/hero/chart.png" alt="Chart">
+      </div>
+      <p class="hero-bottom-para2">Trusted by teams at over 1,000 of the world's leading organizations</p>
+      <div class="logo-showcase flex">
+        <img src="assets/images/hero/dell.png" alt="Dell">
+        <img src="assets/images/hero/zendesk.png" alt="Zendesk">
+        <img src="assets/images/hero/rakuten.png" alt="Rakuten">
+        <img src="assets/images/hero/pacificFunds.png" alt="Pacific Funds">
+        <img src="assets/images/hero/ncr.png" alt="NCR">
+        <img src="assets/images/hero/lattice.png" alt="Lattice">
+        <img src="assets/images/hero/ted.png" alt="TED">
+      </div>
+    </section>
+</div>
     <script src="assets/js/main.js"></script>
-</body>
+  </body>
 </html>

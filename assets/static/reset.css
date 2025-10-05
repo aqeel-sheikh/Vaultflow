@@ -78,10 +78,3 @@ a{
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "montserrat";
-  src: url("../fonts/montserrat/Montserrat-Thin.woff2") format("woff2"),
-    url("../fonts/montserrat/Montserrat-Thin.woff") format("woff");
-  font-weight: medium;
-  font-style: normal;
-}
