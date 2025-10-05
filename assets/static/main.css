@@ -29,6 +29,15 @@ body {
   border-radius: 50px;
   padding: 0.5rem 1rem;
   cursor: pointer;
+  will-change: transform;
+  transition: all .3s ease, box-shadow .3s ease;
+}
+.btn:hover{
+    transform: scale(1.05) translateZ(0);
+    backface-visibility: hidden;
+}
+.btn:active{
+    transform: scale(1);
 }
 .btn-filled {
   color: var(--primary-color2);
