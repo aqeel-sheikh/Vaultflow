@@ -1,3 +1,16 @@
+@media (max-width: 1234px){
+  .long-card-container{
+    max-width: 576px;
+  }
+  .cta-card{
+    max-width: 576px;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  .cta-card h3{
+    font-size: 2rem;
+  }
+}
 @media (max-width: 1049px) {
   header {
     padding: 2rem;
@@ -21,6 +34,11 @@
   .hamburger-content {
     left: -5rem;
     padding: 0 1rem 1rem 1rem;
+  }
+}
+@media(max-width: 424px){
+  .feature-card h3{
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 413px) {
