@@ -72,6 +72,13 @@ a{
   font-style: normal;
 }
 @font-face {
+  font-family: "outfit-light";
+  src: url("../fonts/outfit/Outfit-ExtraLight.woff2") format("woff2"),
+    url("../fonts/outfit/Outfit-ExtraLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "poppins";
   src: url("../fonts/poppins/poppins-regular-webfont.woff2") format("woff2"),
     url("../fonts/poppins/poppins-regular-webfont.woff") format("woff");
